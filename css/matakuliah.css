@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+    box-sizing: border-box;
+}
+.halaman2{
+    display: flex;
+    flex-direction: row;
+
+}
+.halamankiri{
+    
+}
+.halamankanan{
+    padding: 50px;
+    background-color: rgba(0, 0, 255, 0.142);
+}
+.dalam{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.halamankiri h1{
+    background-color: rgb(15, 15, 100);
+    padding: 10px;
+    color: white;
+}
+.halamankiri ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
